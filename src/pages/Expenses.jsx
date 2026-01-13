@@ -1,9 +1,9 @@
 import React from 'react'
-
+import AddExpense from './AddExpense'
 function Expenses() {
   return (
     <div>
-      Expenses Page
+      <AddExpense />
     </div>
   )
 }

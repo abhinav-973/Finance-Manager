@@ -27,7 +27,7 @@ const AddExpense = () => {
       setAmount("");
       setType("expense");
 
-      alert("Expense added successfully!");
+      alert("Expense added successfully");
     } catch (err) {
       setError("Failed to add expense");
       console.error(err);
