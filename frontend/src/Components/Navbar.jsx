@@ -15,7 +15,7 @@ const Navbar = () => {
   const title = pageTitleMap[location.pathname] || "Finance Manager";
 
   return (
-    <header className="sticky top-0 z-30 h-20 w-full bg-black border-b border-zinc-900 flex items-center justify-between px-6 md:px-8">
+    <header className="sticky top-0 z-30 h-20 w-full bg-black/70 backdrop-blur-md border-b border-zinc-900 flex items-center justify-between px-6 md:px-8">
       
       <h1 className="text-xl font-bold text-white tracking-tight">
         {title}

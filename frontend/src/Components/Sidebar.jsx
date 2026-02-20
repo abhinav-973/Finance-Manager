@@ -45,7 +45,7 @@ const Sidebar = () => {
           </div>
           <div>
             <h2 className="text-lg font-bold text-white tracking-tight leading-none">
-              FINANCE.OS
+              FINANCE-MANAGER
             </h2>
             <p className="text-xs text-slate-500 font-medium mt-1">
               Premium Edition

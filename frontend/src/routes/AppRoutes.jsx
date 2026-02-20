@@ -8,6 +8,7 @@ import Group from "../pages/Group";
 import Settings from "../pages/Settings";
 import AddExpense from "../pages/AddExpense";
 import Register from "../pages/Register";
+import Login from "../pages/Login";
 
 function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ function AppRoutes() {
       {/* 1. PUBLIC ROUTES (Full Screen, No Sidebar, No Gap) */}
       <Route path="/register" element={<Register />} />
       {/* If you have a login page, add it here too */}
+      <Route path="/login" element={<Login />} />
       {/* <Route path="/login" element={<Login />} /> */}
 
       {/* 2. PROTECTED ROUTES (Inside MainLayout with Sidebar & Padding) */}
